@@ -2,23 +2,23 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix faia_ont: <https://w3id.org/liccium/faia/ont/> .
+@prefix faia_ont: <https://w3id.org/faia-framework/faia_ont/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix omv: <http://omv.ontoware.org/2005/05/ontology#> .
-@base <https://w3id.org/liccium/faia/ont/> .
+@base <https://w3id.org/faia-framework/faia_ont/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix mod: <https://w3id.org/mod#> .
 
-<https://w3id.org/liccium/faia/ont/> rdf:type owl:Ontology ;
-owl:versionIRI <https://w3id.org/liccium/faia/ont/faia_ont.ttl> ;
-owl:ontologyIRI <https://w3id.org/liccium/faia/ont/>;
-dct:identifier <https://w3id.org/liccium/faia/ont/>;
+<https://w3id.org/faia-framework/faia_ont/> rdf:type owl:Ontology ;
+owl:versionIRI <https://w3id.org/faia-framework/faia_ont/0.6.0.ttl> ;
+owl:ontologyIRI <https://w3id.org/faia-framework/faia_ont/>;
+dct:identifier <https://w3id.org/faia-framework/faia_ont/>;
 skos:prefLabel "FAIR AI Attribution ontology"@en;
 dct:title "FAIR AI Attribution ontology"@en;
 omv:acronym "FAIA_ont"@en;
-omv:resourceLocator "https://raw.githubusercontent.com/liccium/w3id.docs/refs/heads/main/faia/ont/faia_ont.ttl";
+omv:resourceLocator "https://github.com/faia-framework/w3id.docs/blob/main/faia_ont/0.6.0.ttl";
 omv:keywords <http://purl.bioontology.org/ontology/MESH/D000098842>;
 dct:publisher <https://ror.org/027bh9e22>;
 omv:knownUsage "Ontology for describing specific AI operations, and optional system attribution identifying the AI system and version."@en;
@@ -38,7 +38,7 @@ dct:language "en";
 owl:versionInfo "1.0.0"@en;
 dct:created "20/11/2025";
 dct:modified "12/05/2026";
-vann:preferredNamespacePrefix <https://w3id.org/liccium/faia/ont/>;
+vann:preferredNamespacePrefix <https://w3id.org/faia-framework/faia_ont/>;
 dct:issued "31/05/2026";
 mod:status "final";
 owl:imports <https://w3id.org/liccium/ont/> .
@@ -47,7 +47,7 @@ owl:imports <https://w3id.org/liccium/ont/> .
 #    Data properties
 #################################################################
 
-###  https://w3id.org/liccium/faia/ont/systemVersion
+###  https://w3id.org/faia-framework/faia_ont/systemVersion
 faia_ont:systemVersion rdf:type owl:DatatypeProperty ;
              rdfs:domain <https://w3id.org/liccium/ont/Declaration> ;
              rdfs:range xsd:string ;
@@ -55,7 +55,7 @@ faia_ont:systemVersion rdf:type owl:DatatypeProperty ;
              rdfs:label "system version" .
 
 
-###  https://w3id.org/liccium/faia/ont/activityCode
+###  https://w3id.org/faia-framework/faia_ont/activityCode
 faia_ont:activityCode rdf:type owl:DatatypeProperty ;
                   rdfs:domain <https://w3id.org/liccium/ont/Declaration> ;
                   rdfs:range xsd:anyURI ;
@@ -63,7 +63,7 @@ faia_ont:activityCode rdf:type owl:DatatypeProperty ;
                   rdfs:label "activity code" .
 
 
-###  https://w3id.org/liccium/faia/ont/faiaFlag
+###  https://w3id.org/faia-framework/faia_ont/faiaFlag
 faia_ont:faiaFlag rdf:type owl:DatatypeProperty ;
               rdfs:domain <https://w3id.org/liccium/ont/Declaration> ;
               rdfs:range xsd:anyURI ;
@@ -71,7 +71,7 @@ faia_ont:faiaFlag rdf:type owl:DatatypeProperty ;
               rdfs:label "FAIA flag" .
 
 
-###  https://w3id.org/liccium/faia/ont/systemAttribution
+###  https://w3id.org/faia-framework/faia_ont/systemAttribution
 faia_ont:systemAttribution rdf:type owl:DatatypeProperty ;
                                   rdfs:domain <https://w3id.org/liccium/ont/Declaration> ;
                                   rdfs:range xsd:string ;
