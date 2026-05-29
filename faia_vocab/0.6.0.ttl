@@ -13,7 +13,7 @@
 
 <https://w3id.org/faia-framework/faia_vocab/> a skos:ConceptScheme;
 owl:ontologyIRI <https://w3id.org/faia-framework/faia_vocab/>;
-owl:versionIRI <https://w3id.org/faia-framework/faia_vocab/0.6.0.ttl> ;
+owl:versionIRI <https://w3id.org/faia-framework/faia_vocab/0.6.0> ;
 
 dcterms:identifier <https://w3id.org/faia-framework/faia_vocab/>;
 skos:prefLabel "FAIR AI Attribution vocabulary"@en;
