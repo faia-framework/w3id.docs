@@ -127,3 +127,67 @@ skos:broader faia_ont:FaiaFlag;
 skos:definition "Content generated predominantly or entirely by an AI system, where the AI serves as the main creative agent. Human input may be limited to initiating prompts, selecting among AI-generated outputs, or making minor adjustments, or expressive intent. The resulting content is accepted largely as produced by the AI, with no substantive human editing or creatorship."@en;
 skos:prefLabel "AIG"@en;
 skos:altLabel "ai-generated content"@en .
+
+faia_vocab:STM-LanguageRefinement a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to suggest or apply refinement, correction, editing, or formatting of manuscript text in order to improve clarity of language."@en;
+skos:prefLabel "STM language refinement"@en .
+
+faia_vocab:STM-ManuscriptDrafting a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to generate rewrite, or draft part or all of the manuscript text."@en;
+skos:prefLabel "STM manuscript drafting"@en .
+
+faia_vocab:STM-ManuscriptTranslation a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to assist translation of an author's original work into another language."@en;
+skos:prefLabel "STM manuscript translation"@en .
+
+faia_vocab:STM-DataPresentationRefinement a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to refine or format, or improve the presentation, clarity, or readability of the data reported in the manuscript or associated materials."@en;
+skos:prefLabel "STM data presentation refinement"@en .
+
+faia_vocab:STM-IllustrativeFigureGeneration a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to generate, refine, correct, edit, or format images, diagrams, or other figures for illustrative or aesthetic purposes only, not as research data or research results."@en;
+skos:prefLabel "STM illustrative figure generation"@en .
+
+faia_vocab:STM-ResearchDataVisualisation a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to generate, refine, correct, edit, or format visualisations of research data or research results for inclusion in the manuscript."@en;
+skos:prefLabel "STM research data visualisation"@en .
+
+faia_vocab:STM-CodePresentationRefinement a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to refine or format code reported in the manuscript or associated materials in order to improve readability or clarity, without altering the functionality of the code."@en;
+skos:prefLabel "STM code presentation refinement"@en .
+
+faia_vocab:STM-ReferenceGathering a skos:Concept;
+dcterms:creator <https://orcid.org/0000-0002-4182-7560>;
+dcterms:source <https://stm-assoc.org/document/recommendations-for-a-classification-of-ai-use-in-academic-manuscript-preparation/>;
+skos:inScheme <https://w3id.org/faia-framework/faia_vocab/>;
+skos:broader faia_ont:ActivityCode;
+skos:definition "AI tools are used to suggest references that may be relevant for inclusion in the manuscript's reference list."@en;
+skos:prefLabel "STM reference gathering"@en .
