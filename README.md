@@ -1,6 +1,6 @@
 # FAIR AI Attribution (FAIA) framework ontology and vocabulary
 
-Versioned ontology and vocabulary for the FAIA (Fair AI Attribution) framework. For other semantic artifacts and integration with the Liccium platform, see [Liccium FAIA implementation](https://github.com/liccium/faia).
+Versioned ontology and vocabulary for the FAIA (Fair AI Attribution) framework. To generate a statement using the vocabulary and ontology, please see [FAIA statement generator](https://www.faia.io/statement-generator). For other semantic artifacts and integration with the Liccium platform, see [Liccium FAIA implementation](https://github.com/liccium/faia). 
 
 ## FAIA framework
 
