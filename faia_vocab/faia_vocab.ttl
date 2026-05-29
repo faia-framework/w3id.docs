@@ -19,7 +19,7 @@ dcterms:identifier <https://w3id.org/faia-framework/faia_vocab/>;
 skos:prefLabel "FAIR AI Attribution vocabulary"@en;
 dcterms:title "FAIR AI Attribution vocabulary"@en;
 omv:acronym "FAIA_vocab"@en;
-omv:resourceLocator <https://github.com/faia-framework/w3id.docs/blob/main/faia_vocab/0.6.0.ttl>;
+omv:resourceLocator <https://github.com/faia-framework/w3id.docs/blob/main/faia_vocab/faia_vocab.ttl>;
 omv:keywords <http://purl.bioontology.org/ontology/MESH/D000098842>;
 dcterms:publisher <https://ror.org/027bh9e22>;
 omv:knownUsage "Terms for disclosing the role of AI in the content creation process."@en;
