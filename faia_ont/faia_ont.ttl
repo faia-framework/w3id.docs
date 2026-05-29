@@ -18,7 +18,7 @@ dct:identifier <https://w3id.org/faia-framework/faia_ont/>;
 skos:prefLabel "FAIR AI Attribution ontology"@en;
 dct:title "FAIR AI Attribution ontology"@en;
 omv:acronym "FAIA_ont"@en;
-omv:resourceLocator "https://github.com/faia-framework/w3id.docs/blob/main/faia_ont/0.6.0.ttl";
+omv:resourceLocator "https://github.com/faia-framework/w3id.docs/blob/main/faia_ont/faia_ont.ttl";
 omv:keywords <http://purl.bioontology.org/ontology/MESH/D000098842>;
 dct:publisher <https://ror.org/027bh9e22>;
 omv:knownUsage "Ontology for describing specific AI operations, and optional system attribution identifying the AI system and version."@en;
